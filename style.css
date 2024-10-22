@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url(fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family:'MontReg' ;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Italic';
+    src: url(fonts/Montserrat-Italic.ttf);
+}
+
+nav {
+    background-color: #ee7c53;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Spartan';
+}
+
+h2 {
+    font-size: 30px;
+}
+
+nav ul li {
+    font-family: 'MontReg';
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p, figcaption, a, .skills {
+    font-family: 'MontReg';
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.big {
+    font-size: 70px;
+}
+
+.skills {
+    font-family: 'Spartan';
+    margin: 10px;
+}
+
+
+.J {
+    max-width: 67%;
+    box-shadow: 1px 2px 50px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 100px;
+    background-image: url(img/background-01.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position-y: -45px;
+}
+
+.button {
+    border: 1px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    top:50%;
+    background-color: #FFA500;
+    border-radius: 20px;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+    background: #141416;
+    color: orange ;
+}
+
+.section {
+    text-align: center;
+    font-size: 35px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 30px;
+    padding: 50px;
+}
+
+.color {
+    background-color: #ee7c53;
+}
+
+.project .button {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin: 75px;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
